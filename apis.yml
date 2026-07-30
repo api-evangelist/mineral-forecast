@@ -1,7 +1,17 @@
 aid: mineral-forecast
 name: Mineral Forecast
-description: Mineral Forecast is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Mineral Forecast is a geosciences AI company (backed by Techstars) that helps
+  mineral exploration and mining teams identify the best drilling targets. Its
+  explainable-AI geoscientific platform ingests exploration data to accelerate
+  prospecting and site targeting across base metals, ferrous and industrial
+  metals, industrial minerals, precious metals, and rare earth elements.
+  Products include an AI geosciences platform, AI targeting, AI geological
+  explainability analytics, and a Geo-Insights Hub, positioned as a
+  human-centered decision-support tool for experienced geologists worldwide.
+  As of this enrichment pass Mineral Forecast operates a B2B product and
+  marketing website with no public developer API, SDK, or documented API
+  surface; engagement is via request-a-demo and sales.
 url: https://raw.githubusercontent.com/api-evangelist/mineral-forecast/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.mineralforecast.com/wp-content/uploads/2025/08/mineral-forecast-1200x675-1.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Mining
+- Geosciences
+- Artificial Intelligence
+- Mineral Exploration
+- Geology
+- Explainable AI
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mineral-forecast-domain-security.yml
 - type: Website
   url: https://en.mineralforecast.com/
+- type: Pricing
+  url: https://www.mineralforecast.com/pricing/
+- type: Blog
+  url: https://www.mineralforecast.com/blog/
+- type: Support
+  url: https://www.mineralforecast.com/customer-support/
+- type: SignUp
+  url: https://www.mineralforecast.com/request-demo/
+- type: TermsOfService
+  url: https://www.mineralforecast.com/terms/
+- type: PrivacyPolicy
+  url: https://www.mineralforecast.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/mineral-forecast/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
