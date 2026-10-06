@@ -44,7 +44,7 @@ accessModel:
 image: https://www.mineralforecast.com/wp-content/uploads/2025/08/mineral-forecast-1200x675-1.png
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Mining
@@ -70,6 +70,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.mineralforecast.com/blog/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/mineral-forecast-domain-security.yml
 - type: Website
