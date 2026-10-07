@@ -1,0 +1,43 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.mineralforecast.com/pricing/
+sources:
+- https://www.mineralforecast.com/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Tier prices are all 'Contact Us'; feature table marks several items with '$' (additional cost),
+  including API access for Enterprise. Only explicit numeric price is $1,000 per workshop for Training.
+  Elastic pricing items ('$ per project', setup fee, hectares) have no stated amounts.
+plan_count: 4
+currency: USD
+plans:
+- name: Starter Edition
+  price_text: Contact Us
+  period: none
+  included_quota: Up to 10 users; Geo Insights Hub (1 project); 2D visualizations; standard reports; early
+    exploration
+- name: Expansion Edition
+  price_text: Contact Us
+  period: none
+  included_quota: Up to 100 users; Geo Insights Hub (10 projects); project organizer; cross-project visibility
+- name: Enterprise Edition
+  price_text: Contact Us
+  period: none
+  included_quota: Unlimited users; unlimited projects; enterprise access/visibility controls; Access to
+    API (at additional cost)
+- name: Training
+  price_text: $1,000 per workshop
+  price: 1000
+  currency: USD
+  period: one-time
+  unit: workshop
