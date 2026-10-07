@@ -70,6 +70,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/mineral-forecast-plans-pricing.yml
 - url: https://www.mineralforecast.com/blog/feed/
   type: BlogRSS
 - type: DomainSecurity
